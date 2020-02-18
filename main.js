@@ -25,12 +25,28 @@ function handle(e) {
     }else if (e.key == 's')
     {
         playNote(645);
-    }else if (e.key == 'j')
+    }else if (e.key == 'd')
     {
         playNote(845);
-    }else if (e.key == 'k')
+    }else if (e.key == 'j')
     {
         playNote(987);
+    }
+    else if (e.key == 'k')
+    {
+        playNote(148);
+    }
+    else if (e.key == 'l')
+    {
+        playNote(245);
+    }
+    else if (e.key == 'q')
+    {
+        playNote(345);
+    }
+    else if (e.key == 'u')
+    {
+        playNote(400);
     }
   if (form.elements[e.type + 'Stop'].checked) {
     e.preventDefault();
