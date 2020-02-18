@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(68, 68, 68);
+    align-items: center;
+}
+.Titulo{
+    margin-left: 41%;
+    color: rgb(49, 117, 194);
+    text-decoration: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.itens{
+    padding: 5%;
+    
+}
+#A{ height: 90px;
+    width: 23%;
+    border: 1px;
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 255), rgb(223, 241, 243));}
+#B{  height: 90px;
+    width: 23%;
+    border: 1px;
+    background-image: linear-gradient(to bottom right, rgb(9, 255, 0), rgb(223, 241, 243));}
+#C{ height: 90px;
+    width: 23%;
+    border: 1px;
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 234), rgb(223, 241, 243));}
+#D{ height: 90px;
+    width: 23%;
+    border: 1px;
+    background-image: linear-gradient(to bottom right, rgb(238, 255, 0), rgb(223, 241, 243));}
+#kinput{
+    text-align: center;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 20%;
+    width: 80%;
+    background-color: white;
+}
+#area {
+    width: 95%;
+    box-sizing: border-box;
+    height: 250px;
+    border: 1px solid black;
+    display: block;
+  }
+
+  table, th, td {
+      margin-left: 42%;
+    border: 1px solid black;
+  }
